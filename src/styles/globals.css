@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #000;
+  /* margin-block: 3px;
+  border-radius: 10px;   */
+}
+::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 10px;
+}
+
+/* @import 'bootstrap/dist/css/bootstrap.css'; */
+
+/* @import 'bootstrap/dist/css/bootstrap.css' */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
